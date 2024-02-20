@@ -7,9 +7,8 @@ from langchain_openai import ChatOpenAI, OpenAI
 import os
 import tempfile
 import tabulate
-from config import OPENAI_API_KEY
 
-os.environ['OPENAI_API_KEY'] = OPENAI_API_KEY
+os.environ['OPENAI_API_KEY'] = st.secrets["OPENAI_API_KEY"]
 client = OpenAI()
 
 #streamlit part##############################################################################
