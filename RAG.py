@@ -8,7 +8,7 @@ import os
 import tempfile
 import tabulate
 
-os.environ['OPENAI_API_KEY'] = "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"
+os.environ['OPENAI_API_KEY'] = "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"
 client = OpenAI()
 
 #streamlit part##############################################################################
